@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fade3982_503baeeb",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-02-10T02:20:20Z",
+      "side": 1,
+      "message": "Not sure if these should be added here.",
+      "revId": "face61c5d09b4d0edb13d8eca9876fa24a33830a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fade3982_3040aa56",
+        "filename": "recovery/c6902.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-02-10T02:20:20Z",
+      "side": 1,
+      "message": "See previous comment (proprietary-files.txt)\nSomeone running extract-files.sh from a C6902 would pull files which won\u0027t work on the other devices\nAlternative:\nadd an else here, copying files from c69xx dir.\n\nThat way, /system/etc/firmware always has what works for the device, and the subdirs have what\u0027s needed for the others.",
+      "revId": "face61c5d09b4d0edb13d8eca9876fa24a33830a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
